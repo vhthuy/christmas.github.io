@@ -704,7 +704,7 @@ section{
 }
 .content1{
     position: absolute;
-    width: 700px;
+    width: 500px;
     height: 400px;
     background-image: radial-gradient(circle farthest-corner at center, #f9edf3 10%, #ffd3ee 100%);
     border-radius: 10px 70px 10px 70px;
@@ -722,8 +722,8 @@ section{
     overflow: hidden;
 }
 .text1{
-    width: 100px;
-    padding: 5px 5px 0px 5px;
+    width: 300px;
+    padding: 15px 5px 0px 5px;
     margin-top: 70px;
     display: flex;
     justify-content: center;
@@ -758,7 +758,7 @@ section{
     overflow: hidden;
 }
 .text2 h2:nth-child(1){
-    padding: 5px 5px 0px 5px;
+    padding: 12px 5px 0px 5px;
     font-size: 22px;
     transform: translateX(-500px);
     font-family: 'Dancing Script', cursive;
@@ -793,7 +793,6 @@ section{
         transform: translateX(0px);
     }
 }
-
 .image-santa-content img{
     width: 200px;
 }
@@ -805,10 +804,10 @@ section{
     height: 400px;
     z-index: 10;
 }
-.image-decorate .pineTree{
+.image-decorate .pineTree {
     position: absolute;
-    right: 5px;
-    bottom: 20px;
+    right: 100px;
+    bottom: 0px;
     filter: drop-shadow(0 2px 1px #333);
 }
 .image-decorate .pineTree img{
@@ -818,7 +817,7 @@ section{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: -20px;
+    top: -14px;
     filter: drop-shadow(0 2px 2px rgb(0, 0, 0));
     z-index: 10000;
 }
@@ -828,36 +827,38 @@ section{
 .bell{
     position: absolute;
     top: -10px;
-    left: -20px;
+    left: 80px;
     z-index: 1000;
 }
 .bell img{
     width: 80px;
 }
 .bell img:nth-child(2){
-    transform: translateX(580px) scaleX(-1);
+    transform: translateX(360px) scaleX(-1);
 }
 .bell1{
     position: absolute;
-    top: -20px;
+    top: -17px;
+    left: 55px;
 }
 .bell1 img{
     width: 150px;
+    transform: translate(47px, -5px);
 }
 .bell1 img:nth-child(2){
     transform: translateX(-5px);
 }
 .bell1 img:nth-child(3){
-    transform: translateX(120px);
+    transform: translate(70px, -5px);
 }
 .bell1 img:nth-child(4){
-    transform: translateX(70px);
+    transform: translate(-193px, -4px);
 }
-.snowman{
+.snowman {
     position: absolute;
     transform: scaleX(-1);
-    left: 25px;
-    bottom: 20px;
+    left: 110px;
+    bottom: -10px;
     animation: snowman 2s linear infinite;
 }
 @keyframes snowman{

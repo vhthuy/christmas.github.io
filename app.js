@@ -3,6 +3,7 @@ var Close = document.querySelector('.fa-xmark')
 var boxContent = document.querySelector('.box-content')
 var content =document.querySelector('.content')
 
+
 boxgift.onclick = function(){
     boxgift.classList.toggle('active')
     // boxContent.classList.add('active')
